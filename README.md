@@ -210,7 +210,7 @@ plugins/StaffPanele/
 ## Supporto
 
 Per supporto o segnalazioni:
-- Discord: discord.gg/tuoserver
+- Discord: https://discord.gg/c4VV4kgZUk
 
 ---
 

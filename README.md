@@ -3,7 +3,10 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.13--1.21-green)
 ![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red)
-![〻ꜱᴜᴘᴘᴏʀᴛ](https://img.shields.io/badge/%E2%9E%BB%EA%9C%BF%F1%95%AA%F0%9D%90%BF%F0%9D%90%AF%F0%9D%90%B0%F0%9D%90%B8-8A2BE2?style=for-the-badge)
+[![〻ꜱᴜᴘᴘᴏʀᴛ](https://img.shields.io/badge/〻ꜱᴜᴘᴘᴏʀᴛ-purple?style=flat&logoColor=white)](https://discord.gg/c4VV4kgZUk)
+
+
+
 
 > **Plugin developed by Youness**
 

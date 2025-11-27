@@ -9,7 +9,7 @@
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>StaffPanele</name>
+    <name>StaffPanel</name>
     <description>Plugin professionale per la gestione dello staff</description>
 
     <properties>

@@ -212,7 +212,7 @@ Per supporto o segnalazioni:
 
 ## Credits
 
-**StaffPanele** - Plugin professionale per la gestione dello staff
+**StaffPanel** - Plugin professionale per la gestione dello staff
 Developed by Youness - Tutti i diritti riservati
 
 *Tutti i diritti riservati. Non è permessa la redistribuzione senza autorizzazione.*

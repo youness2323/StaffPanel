@@ -191,7 +191,7 @@ Esempio: `1d12h` = 1 giorno e 12 ore
 ## Struttura File
 
 ```
-plugins/StaffPanele/
+plugins/StaffPanel/
 ├── config.yml          # Configurazione principale
 ├── messages.yml        # Messaggi personalizzabili
 ├── discord-webhook.yml # Configurazione webhook

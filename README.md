@@ -1,4 +1,4 @@
-# StaffPanᴇlᴇ - Plugin Minecraft
+# StaffPanel - Plugin Minecraft
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.13--1.21-green)

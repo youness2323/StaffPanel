@@ -1,0 +1,210 @@
+name: StaffPanele
+version: ${project.version}
+main: it.core.staffpanel.StaffPanelPlugin
+api-version: 1.13
+author: Youness
+description: Plugin professionale per la gestione dello staff - developed by Youness
+website: https://github.com/youness
+
+# Compatibilita: Spigot/Paper 1.13 - 1.21
+# Richiede Java 8+
+
+softdepend:
+  - Vault
+  - PlaceholderAPI
+
+commands:
+  staffpanel:
+    description: Comando principale StaffPanel
+    usage: /<command> <subcommand> [args]
+    aliases: [sp, staff]
+    permission: staffpanel.use
+    permission-message: "&cNon hai il permesso di usare questo comando!"
+
+  report:
+    description: Invia un report allo staff
+    usage: /<command> <tipologia> <motivo>
+    permission: staffpanel.report
+    permission-message: "&cNon hai il permesso di usare questo comando!"
+
+  reports:
+    description: Visualizza i report (Staff)
+    usage: /<command> [page]
+    permission: staffpanel.reports
+    permission-message: "&cNon hai il permesso di usare questo comando!"
+
+  discord:
+    description: Mostra il link Discord del server
+    usage: /<command>
+    permission: staffpanel.discord
+    permission-message: "&cNon hai il permesso di usare questo comando!"
+
+  invsee:
+    description: Visualizza l'inventario di un giocatore
+    usage: /<command> <player>
+    aliases: [inv, openinv]
+    permission: staffpanel.invsee
+    permission-message: "&cNon hai il permesso di usare questo comando!"
+
+permissions:
+  staffpanel.*:
+    description: Accesso completo a StaffPanel
+    default: op
+    children:
+      staffpanel.use: true
+      staffpanel.ban: true
+      staffpanel.tempban: true
+      staffpanel.unban: true
+      staffpanel.mute: true
+      staffpanel.unmute: true
+      staffpanel.kick: true
+      staffpanel.warn: true
+      staffpanel.warns: true
+      staffpanel.clearwarns: true
+      staffpanel.freeze: true
+      staffpanel.unfreeze: true
+      staffpanel.vanish: true
+      staffpanel.fly: true
+      staffpanel.heal: true
+      staffpanel.feed: true
+      staffpanel.tp: true
+      staffpanel.tphere: true
+      staffpanel.back: true
+      staffpanel.wild: true
+      staffpanel.gamemode: true
+      staffpanel.ip: true
+      staffpanel.alts: true
+      staffpanel.clearchat: true
+      staffpanel.slowchat: true
+      staffpanel.reports: true
+      staffpanel.reload: true
+      staffpanel.bypass.slowchat: true
+      staffpanel.bypass.freeze: true
+
+  staffpanel.use:
+    description: Permesso base per usare StaffPanel
+    default: op
+
+  staffpanel.ban:
+    description: Permesso per bannare giocatori
+    default: op
+
+  staffpanel.tempban:
+    description: Permesso per bannare temporaneamente
+    default: op
+
+  staffpanel.unban:
+    description: Permesso per sbannare giocatori
+    default: op
+
+  staffpanel.mute:
+    description: Permesso per mutare giocatori
+    default: op
+
+  staffpanel.unmute:
+    description: Permesso per smutare giocatori
+    default: op
+
+  staffpanel.kick:
+    description: Permesso per kickare giocatori
+    default: op
+
+  staffpanel.warn:
+    description: Permesso per avvisare giocatori
+    default: op
+
+  staffpanel.warns:
+    description: Permesso per vedere gli avvisi
+    default: op
+
+  staffpanel.clearwarns:
+    description: Permesso per cancellare avvisi
+    default: op
+
+  staffpanel.freeze:
+    description: Permesso per freezare giocatori
+    default: op
+
+  staffpanel.unfreeze:
+    description: Permesso per sfreezare giocatori
+    default: op
+
+  staffpanel.vanish:
+    description: Permesso per diventare invisibili
+    default: op
+
+  staffpanel.fly:
+    description: Permesso per volare
+    default: op
+
+  staffpanel.heal:
+    description: Permesso per curare giocatori
+    default: op
+
+  staffpanel.feed:
+    description: Permesso per sfamare giocatori
+    default: op
+
+  staffpanel.tp:
+    description: Permesso per teletrasportarsi
+    default: op
+
+  staffpanel.tphere:
+    description: Permesso per teletrasportare qui
+    default: op
+
+  staffpanel.back:
+    description: Permesso per tornare indietro
+    default: op
+
+  staffpanel.wild:
+    description: Permesso per teletrasporto casuale
+    default: op
+
+  staffpanel.gamemode:
+    description: Permesso per cambiare gamemode
+    default: op
+
+  staffpanel.ip:
+    description: Permesso per vedere IP giocatori
+    default: op
+
+  staffpanel.alts:
+    description: Permesso per vedere account alternativi
+    default: op
+
+  staffpanel.clearchat:
+    description: Permesso per pulire la chat
+    default: op
+
+  staffpanel.slowchat:
+    description: Permesso per rallentare la chat
+    default: op
+
+  staffpanel.report:
+    description: Permesso per inviare report
+    default: true
+
+  staffpanel.reports:
+    description: Permesso per vedere i report
+    default: op
+
+  staffpanel.discord:
+    description: Permesso per vedere il link Discord
+    default: true
+
+  staffpanel.invsee:
+    description: Permesso per visualizzare inventari
+    default: op
+
+  staffpanel.reload:
+    description: Permesso per ricaricare il plugin
+    default: op
+
+  staffpanel.bypass.slowchat:
+    description: Bypass slowchat
+    default: op
+
+  staffpanel.bypass.freeze:
+    description: Bypass freeze
+    default: op

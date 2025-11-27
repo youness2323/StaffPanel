@@ -1,0 +1,207 @@
+#  ____  _         __  __ ____                   _      
+# / ___|| |_ __ _ / _|/ _|  _ \ __ _ _ __   ___| | ___ 
+# \___ \| __/ _` | |_| |_| |_) / _` | '_ \ / _ \ |/ _ \
+#  ___) | || (_| |  _|  _|  __/ (_| | | | |  __/ |  __/
+# |____/ \__\__,_|_| |_| |_|   \__,_|_| |_|\___|_|\___|
+#
+# Configurazione principale del plugin StaffPanele
+# Compatibile con Spigot/Paper 1.8 - 1.21
+
+# Prefisso del plugin nei messaggi
+prefix: "&8[&c&lStaffPanel&8] "
+
+# Link del server Discord
+discord-link: "discord.gg/tuoserver"
+
+# Impostazioni generali
+settings:
+  # Lingua dei messaggi (it, en)
+  language: "it"
+  # Debug mode
+  debug: false
+  # Salva log in file
+  log-to-file: true
+  # Formato data/ora per i log
+  date-format: "dd/MM/yyyy HH:mm:ss"
+
+# Configurazione comandi
+commands:
+  ban:
+    enabled: true
+    permission: "staffpanel.ban"
+    log: true
+    notify-staff: true
+
+  tempban:
+    enabled: true
+    permission: "staffpanel.tempban"
+    log: true
+    notify-staff: true
+
+  unban:
+    enabled: true
+    permission: "staffpanel.unban"
+    log: true
+    notify-staff: true
+
+  mute:
+    enabled: true
+    permission: "staffpanel.mute"
+    log: true
+    notify-staff: true
+    default-duration: "1h"
+
+  unmute:
+    enabled: true
+    permission: "staffpanel.unmute"
+    log: true
+    notify-staff: true
+
+  kick:
+    enabled: true
+    permission: "staffpanel.kick"
+    log: true
+    notify-staff: true
+
+  warn:
+    enabled: true
+    permission: "staffpanel.warn"
+    log: true
+    notify-staff: true
+    max-warns: 5
+    action-on-max: "ban"
+
+  warns:
+    enabled: true
+    permission: "staffpanel.warns"
+
+  clearwarns:
+    enabled: true
+    permission: "staffpanel.clearwarns"
+    log: true
+
+  freeze:
+    enabled: true
+    permission: "staffpanel.freeze"
+    log: true
+    notify-staff: true
+
+  unfreeze:
+    enabled: true
+    permission: "staffpanel.unfreeze"
+    log: true
+    notify-staff: true
+
+  vanish:
+    enabled: true
+    permission: "staffpanel.vanish"
+
+  fly:
+    enabled: true
+    permission: "staffpanel.fly"
+
+  heal:
+    enabled: true
+    permission: "staffpanel.heal"
+    log: true
+
+  feed:
+    enabled: true
+    permission: "staffpanel.feed"
+    log: true
+
+  tp:
+    enabled: true
+    permission: "staffpanel.tp"
+
+  tphere:
+    enabled: true
+    permission: "staffpanel.tphere"
+
+  back:
+    enabled: true
+    permission: "staffpanel.back"
+
+  wild:
+    enabled: true
+    permission: "staffpanel.wild"
+    max-distance: 5000
+    min-distance: 500
+    cooldown: 60
+
+  gamemode:
+    enabled: true
+    permission: "staffpanel.gamemode"
+    log: true
+
+  ip:
+    enabled: true
+    permission: "staffpanel.ip"
+
+  alts:
+    enabled: true
+    permission: "staffpanel.alts"
+
+  clearchat:
+    enabled: true
+    permission: "staffpanel.clearchat"
+    log: true
+    lines: 100
+
+  slowchat:
+    enabled: true
+    permission: "staffpanel.slowchat"
+    log: true
+    default-delay: 5
+
+  report:
+    enabled: true
+    permission: "staffpanel.report"
+    log: true
+    cooldown: 60
+
+  reports:
+    enabled: true
+    permission: "staffpanel.reports"
+
+  discord:
+    enabled: true
+    permission: "staffpanel.discord"
+
+# ============================================
+# Plugin developed by Youness
+# ============================================
+
+# Tipologie di report disponibili
+report-types:
+  - "INFO"
+  - "GENERALE"
+  - "BUG"
+  - "CHEATER"
+  - "CHAT"
+  - "ALTRO"
+
+# Impostazioni slowchat
+slowchat:
+  enabled: false
+  delay: 5
+
+# Impostazioni vanish
+vanish:
+  hide-join-message: true
+  hide-quit-message: true
+  fake-quit-message: true
+
+# Impostazioni wild
+wild:
+  safe-blocks:
+    - "GRASS_BLOCK"
+    - "DIRT"
+    - "SAND"
+    - "STONE"
+    - "GRAVEL"
+  unsafe-blocks:
+    - "LAVA"
+    - "WATER"
+    - "CACTUS"
+    - "FIRE"

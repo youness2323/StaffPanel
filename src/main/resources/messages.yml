@@ -1,0 +1,232 @@
+#  ____  _         __  __ ____                   _      
+# / ___|| |_ __ _ / _|/ _|  _ \ __ _ _ __   ___| | ___ 
+# \___ \| __/ _` | |_| |_| |_) / _` | '_ \ / _ \ |/ _ \
+#  ___) | || (_| |  _|  _|  __/ (_| | | | |  __/ |  __/
+# |____/ \__\__,_|_| |_| |_|   \__,_|_| |_|\___|_|\___|
+#
+# Messaggi personalizzabili del plugin StaffPanele
+# Usa i placeholder: {player}, {staff}, {reason}, {duration}, {discord-link}
+
+# Messaggi generali
+general:
+  no-permission: "&c〻ɴᴏ-ᴘᴇʀᴍɪssɪᴏɴ &8» &7Non hai il permesso per eseguire questo comando!"
+  player-not-found: "&c〻ᴘʟᴀʏᴇʀ-ɴᴏᴛ-ғᴏᴜɴᴅ &8» &7Il giocatore &c{player} &7non è stato trovato!"
+  player-offline: "&c〻ᴘʟᴀʏᴇʀ-ᴏғғʟɪɴᴇ &8» &7Il giocatore &c{player} &7non è online!"
+  invalid-usage: "&c〻ɪɴᴠᴀʟɪᴅ-ᴜsᴀɢᴇ &8» &7Uso corretto: &c{usage}"
+  invalid-duration: "&c〻ɪɴᴠᴀʟɪᴅ-ᴅᴜʀᴀᴛɪᴏɴ &8» &7Formato durata non valido! Usa: 1s, 1m, 1h, 1d, 1w, 1mo"
+  command-disabled: "&c〻ᴄᴏᴍᴍᴀɴᴅ-ᴅɪsᴀʙʟᴇᴅ &8» &7Questo comando è disabilitato!"
+  console-only: "&c〻ᴄᴏɴsᴏʟᴇ-ᴏɴʟʏ &8» &7Questo comando può essere eseguito solo dalla console!"
+  players-only: "&c〻ᴘʟᴀʏᴇʀs-ᴏɴʟʏ &8» &7Questo comando può essere eseguito solo dai giocatori!"
+  reload-success: "&a〻ʀᴇʟᴏᴀᴅ-sᴜᴄᴄᴇss &8» &7Configurazione ricaricata con successo!"
+  cooldown: "&c〻ᴄᴏᴏʟᴅᴏᴡɴ &8» &7Devi aspettare &c{time} &7secondi prima di poter usare questo comando!"
+
+# Messaggi Ban
+ban:
+  success: "&a〻ʙᴀɴ-ᴄᴏᴍᴘʟᴇᴛᴇ &8» &7Hai bannato &c{player} &7per: &c{reason}"
+  broadcast: "&c〻ʙᴀɴ-ɴᴏᴛɪғʏ &8» &c{player} &7è stato bannato da &c{staff} &7per: &c{reason}"
+  kick-message: |
+    &c&l〻 ʙᴀɴɴᴇᴅ
+    
+    &7Sei stato bannato da questo server!
+    
+    &cMotivo: &7{reason}
+    &cStaff: &7{staff}
+    &cDurata: &7{duration}
+  already-banned: "&c〻ᴀʟʀᴇᴀᴅʏ-ʙᴀɴɴᴇᴅ &8» &7Il giocatore &c{player} &7è già bannato!"
+  not-banned: "&c〻ɴᴏᴛ-ʙᴀɴɴᴇᴅ &8» &7Il giocatore &c{player} &7non è bannato!"
+  unban-success: "&a〻ᴜɴʙᴀɴ-ᴄᴏᴍᴘʟᴇᴛᴇ &8» &7Hai sbannato &a{player}"
+  unban-broadcast: "&a〻ᴜɴʙᴀɴ-ɴᴏᴛɪғʏ &8» &a{player} &7è stato sbannato da &a{staff}"
+
+# Messaggi Mute
+mute:
+  success: "&a〻ᴍᴜᴛᴇ-ᴀᴘᴘʟɪᴇᴅ &8» &7Hai mutato &c{player} &7per &c{duration}"
+  broadcast: "&c〻ᴍᴜᴛᴇ-ɴᴏᴛɪғʏ &8» &c{player} &7è stato mutato da &c{staff} &7per &c{duration}"
+  target-message: "&c〻ᴍᴜᴛᴇᴅ &8» &7Sei stato mutato per &c{duration} &7da &c{staff}"
+  already-muted: "&c〻ᴀʟʀᴇᴀᴅʏ-ᴍᴜᴛᴇᴅ &8» &7Il giocatore &c{player} &7è già mutato!"
+  not-muted: "&c〻ɴᴏᴛ-ᴍᴜᴛᴇᴅ &8» &7Il giocatore &c{player} &7non è mutato!"
+  unmute-success: "&a〻ᴜɴᴍᴜᴛᴇ-ᴄᴏᴍᴘʟᴇᴛᴇ &8» &7Hai smutato &a{player}"
+  unmute-broadcast: "&a〻ᴜɴᴍᴜᴛᴇ-ɴᴏᴛɪғʏ &8» &a{player} &7è stato smutato da &a{staff}"
+  unmute-target: "&a〻ᴜɴᴍᴜᴛᴇᴅ &8» &7Sei stato smutato da &a{staff}"
+  try-speak: "&c〻ᴍᴜᴛᴇᴅ &8» &7Sei mutato! Tempo rimanente: &c{remaining}"
+
+# Messaggi Kick
+kick:
+  success: "&a〻ᴋɪᴄᴋ-ᴄᴏᴍᴘʟᴇᴛᴇ &8» &7Hai kickato &c{player} &7per: &c{reason}"
+  broadcast: "&c〻ᴋɪᴄᴋ-ɴᴏᴛɪғʏ &8» &c{player} &7è stato kickato da &c{staff} &7per: &c{reason}"
+  kick-message: |
+    &c&l〻 ᴋɪᴄᴋᴇᴅ
+    
+    &7Sei stato kickato dal server!
+    
+    &cMotivo: &7{reason}
+    &cStaff: &7{staff}
+
+# Messaggi Warn
+warn:
+  success: "&a〻ᴡᴀʀɴ-ᴀᴅᴅᴇᴅ &8» &7Hai avvisato &c{player} &7per: &c{reason} &8(&c{current}/{max}&8)"
+  broadcast: "&c〻ᴡᴀʀɴ-ɴᴏᴛɪғʏ &8» &c{player} &7è stato avvisato da &c{staff} &7per: &c{reason}"
+  target-message: "&c〻ᴡᴀʀɴᴇᴅ &8» &7Hai ricevuto un avviso da &c{staff}&7: &c{reason} &8(&c{current}/{max}&8)"
+  max-reached: "&c〻ᴍᴀx-ᴡᴀʀɴs &8» &c{player} &7ha raggiunto il massimo degli avvisi e verrà punito!"
+  list-header: "&6〻ᴡᴀʀɴs-ʟɪsᴛ &8» &7Avvisi di &6{player}&7:"
+  list-entry: "&8 • &7{id}. &c{reason} &8- &7{staff} &8(&7{date}&8)"
+  list-empty: "&a〻ɴᴏ-ᴡᴀʀɴs &8» &7Il giocatore &a{player} &7non ha avvisi!"
+  clear-success: "&a〻ᴡᴀʀɴs-ᴄʟᴇᴀʀᴇᴅ &8» &7Hai cancellato tutti gli avvisi di &a{player}"
+
+# Messaggi Freeze
+freeze:
+  success: "&a〻ғʀᴇᴇᴢᴇᴅ-ᴘʟᴀʏᴇʀ &8» &7Hai freezato &c{player}"
+  broadcast: "&c〻ғʀᴇᴇᴢᴇ-ɴᴏᴛɪғʏ &8» &c{player} &7è stato freezato da &c{staff}"
+  target-message: "&c〻ғʀᴏᴢᴇɴ &8» &7Sei stato freezato da &c{staff}&7! Non muoverti!"
+  already-frozen: "&c〻ᴀʟʀᴇᴀᴅʏ-ғʀᴏᴢᴇɴ &8» &7Il giocatore &c{player} &7è già freezato!"
+  not-frozen: "&c〻ɴᴏᴛ-ғʀᴏᴢᴇɴ &8» &7Il giocatore &c{player} &7non è freezato!"
+  unfreeze-success: "&a〻ᴜɴғʀᴇᴇᴢᴇ-ᴄᴏᴍᴘʟᴇᴛᴇ &8» &7Hai sfreezato &a{player}"
+  unfreeze-target: "&a〻ᴜɴғʀᴏᴢᴇɴ &8» &7Sei stato sfreezato da &a{staff}"
+  try-move: "&c〻ғʀᴏᴢᴇɴ &8» &7Sei freezato! Non puoi muoverti!"
+  try-quit: "&c〻ғʀᴏᴢᴇɴ &8» &c{player} &7ha provato a disconnettersi mentre era freezato!"
+
+# Messaggi Vanish
+vanish:
+  enabled: "&a〻ᴠᴀɴɪsʜ-ᴏɴ &8» &7Ora sei &ainvisibile&7!"
+  disabled: "&c〻ᴠᴀɴɪsʜ-ᴏғғ &8» &7Ora sei &cvisibile&7!"
+  fake-quit: "&7{player} ha lasciato il gioco"
+  fake-join: "&7{player} è entrato nel gioco"
+
+# Messaggi Fly
+fly:
+  enabled: "&a〻ғʟʏ-ᴏɴ &8» &7Il volo è ora &aattivato&7!"
+  disabled: "&c〻ғʟʏ-ᴏғғ &8» &7Il volo è ora &cdisattivato&7!"
+
+# Messaggi Heal/Feed
+heal:
+  success: "&a〻ʜᴇᴀʟ-ᴄᴏᴍᴘʟᴇᴛᴇ &8» &7Hai curato &a{player}"
+  target: "&a〻ʜᴇᴀʟᴇᴅ &8» &7Sei stato curato da &a{staff}"
+  self: "&a〻ʜᴇᴀʟᴇᴅ &8» &7Ti sei curato!"
+
+feed:
+  success: "&a〻ғᴇᴇᴅ-ᴄᴏᴍᴘʟᴇᴛᴇ &8» &7Hai sfamato &a{player}"
+  target: "&a〻ғᴇᴅ &8» &7Sei stato sfamato da &a{staff}"
+  self: "&a〻ғᴇᴅ &8» &7Ti sei sfamato!"
+
+# Messaggi Teleport
+tp:
+  success: "&a〻ᴛᴘ-ᴄᴏᴍᴘʟᴇᴛᴇ &8» &7Ti sei teletrasportato da &a{player}"
+
+tphere:
+  success: "&a〻ᴛᴘʜᴇʀᴇ-ᴄᴏᴍᴘʟᴇᴛᴇ &8» &7Hai teletrasportato &a{player} &7da te"
+  target: "&a〻ᴛᴇʟᴇᴘᴏʀᴛᴇᴅ &8» &7Sei stato teletrasportato da &a{staff}"
+
+back:
+  success: "&a〻ʙᴀᴄᴋ-ᴄᴏᴍᴘʟᴇᴛᴇ &8» &7Sei tornato alla posizione precedente!"
+  no-location: "&c〻ɴᴏ-ʟᴏᴄᴀᴛɪᴏɴ &8» &7Non hai una posizione precedente salvata!"
+
+wild:
+  success: "&a〻ᴡɪʟᴅ-ᴄᴏᴍᴘʟᴇᴛᴇ &8» &7Sei stato teletrasportato in una posizione casuale!"
+  searching: "&e〻sᴇᴀʀᴄʜɪɴɢ &8» &7Cercando una posizione sicura..."
+  failed: "&c〻ᴡɪʟᴅ-ғᴀɪʟᴇᴅ &8» &7Impossibile trovare una posizione sicura!"
+
+# Messaggi Gamemode
+gamemode:
+  changed: "&a〻ɢᴀᴍᴇᴍᴏᴅᴇ-ᴄʜᴀɴɢᴇᴅ &8» &7Gamemode cambiato in &a{gamemode}"
+  changed-other: "&a〻ɢᴀᴍᴇᴍᴏᴅᴇ-ᴄʜᴀɴɢᴇᴅ &8» &7Hai cambiato il gamemode di &a{player} &7in &a{gamemode}"
+  target: "&a〻ɢᴀᴍᴇᴍᴏᴅᴇ &8» &7Il tuo gamemode è stato cambiato in &a{gamemode} &7da &a{staff}"
+  invalid: "&c〻ɪɴᴠᴀʟɪᴅ-ɢᴀᴍᴇᴍᴏᴅᴇ &8» &7Gamemode non valido! Usa: 0, 1, 2, 3 o survival, creative, adventure, spectator"
+
+# Messaggi IP/Alts
+ip:
+  info: "&6〻ɪᴘ-ɪɴғᴏ &8» &7IP di &6{player}&7: &6{ip}"
+
+alts:
+  header: "&6〻ᴀʟᴛs-ʟɪsᴛ &8» &7Account collegati a &6{player}&7:"
+  entry: "&8 • &7{alt}"
+  none: "&a〻ɴᴏ-ᴀʟᴛs &8» &7Nessun account alternativo trovato per &a{player}"
+
+# Messaggi Chat
+clearchat:
+  success: "&a〻ᴄʜᴀᴛ-ᴄʟᴇᴀʀᴇᴅ &8» &7La chat è stata pulita da &a{staff}"
+
+slowchat:
+  enabled: "&c〻sʟᴏᴡᴄʜᴀᴛ-ᴏɴ &8» &7La slowchat è stata attivata! Delay: &c{delay}s"
+  disabled: "&a〻sʟᴏᴡᴄʜᴀᴛ-ᴏғғ &8» &7La slowchat è stata disattivata!"
+  wait: "&c〻sʟᴏᴡᴄʜᴀᴛ &8» &7Devi aspettare &c{remaining}s &7prima di scrivere!"
+
+# Messaggi Report
+report:
+  success: "&a〻ʀᴇᴘᴏʀᴛ-ᴀᴄᴄᴇᴘᴛᴇᴅ &8» &7Il tuo report è stato inviato allo staff!"
+  staff-notify: "&c〻ɴᴇᴡ-ʀᴇᴘᴏʀᴛ &8» &7Nuovo report da &c{player}&7: &c[{type}] {reason}"
+  invalid-type: "&c〻ɪɴᴠᴀʟɪᴅ-ᴛʏᴘᴇ &8» &7Tipologia non valida! Tipi disponibili: {types}"
+  list-header: "&6〻ʀᴇᴘᴏʀᴛs-ʟɪsᴛ &8» &7Lista report &8(Pagina {page}/{maxpage})&7:"
+  list-entry: "&8 • &7#{id} &8- &c{player} &8- &7[{type}] {reason} &8(&7{date}&8)"
+  list-empty: "&a〻ɴᴏ-ʀᴇᴘᴏʀᴛs &8» &7Non ci sono report pendenti!"
+  deleted: "&a〻ʀᴇᴘᴏʀᴛ-ᴅᴇʟᴇᴛᴇᴅ &8» &7Report #{id} eliminato!"
+
+# Messaggio Discord
+discord:
+  message: "&b〻ᴅɪsᴄᴏʀᴅ-ʟɪɴᴋ &8» &7Unisciti al nostro Discord: &b{discord-link}"
+
+# Messaggi Invsee
+invsee:
+  opened: "&a〻ɪɴᴠsᴇᴇ-ᴏᴘᴇɴᴇᴅ &8» &7Stai visualizzando l'inventario di &a{player}"
+
+# Messaggi Enderchest
+enderchest:
+  opened: "&a〻ᴇɴᴅᴇʀᴄʜᴇsᴛ-ᴏᴘᴇɴᴇᴅ &8» &7Stai visualizzando l'enderchest di &a{player}"
+
+# Messaggi Clear
+clear:
+  success: "&a〻ᴄʟᴇᴀʀ-ᴄᴏᴍᴘʟᴇᴛᴇ &8» &7Hai pulito l'inventario di &a{player}"
+  target: "&c〻ɪɴᴠᴇɴᴛᴏʀʏ-ᴄʟᴇᴀʀᴇᴅ &8» &7Il tuo inventario è stato svuotato da &c{staff}"
+  self: "&a〻ɪɴᴠᴇɴᴛᴏʀʏ-ᴄʟᴇᴀʀᴇᴅ &8» &7Hai svuotato il tuo inventario!"
+
+# Messaggi Speed
+speed:
+  changed: "&a〻sᴘᴇᴇᴅ-ᴄʜᴀɴɢᴇᴅ &8» &7Velocità impostata a &a{speed}"
+  changed-other: "&a〻sᴘᴇᴇᴅ-ᴄʜᴀɴɢᴇᴅ &8» &7Hai impostato la velocità di &a{player} &7a &a{speed}"
+  target: "&a〻sᴘᴇᴇᴅ-sᴇᴛ &8» &7La tua velocità è stata impostata a &a{speed} &7da &a{staff}"
+  invalid: "&c〻ɪɴᴠᴀʟɪᴅ-sᴘᴇᴇᴅ &8» &7Velocità non valida! Usa un valore tra 1 e 10"
+
+# Messaggi God
+god:
+  enabled: "&a〻ɢᴏᴅ-ᴍᴏᴅᴇ-ᴏɴ &8» &7Modalità God &aattivata&7!"
+  disabled: "&c〻ɢᴏᴅ-ᴍᴏᴅᴇ-ᴏғғ &8» &7Modalità God &cdisattivata&7!"
+  enabled-other: "&a〻ɢᴏᴅ-ᴍᴏᴅᴇ-ᴏɴ &8» &7Hai attivato la modalità God per &a{player}"
+  disabled-other: "&c〻ɢᴏᴅ-ᴍᴏᴅᴇ-ᴏғғ &8» &7Hai disattivato la modalità God per &c{player}"
+
+# Messaggi Help
+help:
+  header: |
+    
+    &8&m                                                  
+    &c&lStaffPanel &8- &7Sistema di gestione staff
+    &8&m                                                  
+  commands: |
+    &c/staffpanel ban &8<player> <duration> <reason> &7- Banna un giocatore
+    &c/staffpanel tempban &8<player> <duration> <reason> &7- Ban temporaneo
+    &c/staffpanel unban &8<player> &7- Sbanna un giocatore
+    &c/staffpanel mute &8<player> [duration] &7- Muta un giocatore
+    &c/staffpanel unmute &8<player> &7- Smuta un giocatore
+    &c/staffpanel kick &8<player> <reason> &7- Kicka un giocatore
+    &c/staffpanel warn &8<player> <reason> &7- Avvisa un giocatore
+    &c/staffpanel warns &8<player> &7- Vedi avvisi
+    &c/staffpanel clearwarns &8<player> &7- Cancella avvisi
+    &c/staffpanel freeze &8<player> &7- Freeza un giocatore
+    &c/staffpanel unfreeze &8<player> &7- Sfreeza un giocatore
+    &c/staffpanel vanish &7- Diventa invisibile
+    &c/staffpanel fly &7- Attiva/disattiva il volo
+    &c/staffpanel heal &8[player] &7- Cura un giocatore
+    &c/staffpanel feed &8[player] &7- Sfama un giocatore
+    &c/staffpanel tp &8<player> &7- Teletrasportati
+    &c/staffpanel tphere &8<player> &7- Teletrasporta qui
+    &c/staffpanel back &7- Torna alla posizione precedente
+    &c/staffpanel wild &7- Teletrasporto casuale
+    &c/staffpanel gamemode &8<0/1/2/3> [player] &7- Cambia gamemode
+    &c/staffpanel ip &8<player> &7- Vedi IP giocatore
+    &c/staffpanel alts &8<player> &7- Vedi account alternativi
+    &c/staffpanel clearchat &7- Pulisci la chat
+    &c/staffpanel slowchat &8[delay] &7- Attiva/disattiva slowchat
+    &c/staffpanel reload &7- Ricarica la configurazione
+    &c/invsee &8<player> &7- Visualizza inventario
+  footer: "&8&m                                                  "
+
+# ============================================
+# Plugin developed by Youness
+# ============================================

@@ -13,7 +13,7 @@ enabled: true
 
 # Impostazioni embed Discord
 embed-settings:
-  footer-text: "© Youness – fatto da Youness | StaffPanele"
+  footer-text: "StaffPanel"
   footer-icon: "https://i.imgur.com/example.png"
   thumbnail: "https://i.imgur.com/example.png"
   color-ban: "#FF0000"
